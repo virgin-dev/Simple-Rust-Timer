@@ -1,0 +1,11 @@
+[package]
+name = "timerv2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.22"
+eframe = "0.22"
+winapi = { version = "0.3.9", features = ["winuser"] }
+rdev = "0.5.3"
+global-hotkey = "0.4.0"
